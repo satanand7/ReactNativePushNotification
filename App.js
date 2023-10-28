@@ -5,9 +5,9 @@ import * as Notifications from 'expo-notifications';
 
 import { useEffect } from 'react';
 
-const EXPO_PROJECT_ID = '576522f5-8c0c-4792-b82a-1997b9e01cc9';
+const EXPO_PROJECT_ID = 'Your Expo Project ID';
 
-const EXPO_DEVICETOKEN = 'ExponentPushToken[PLzOZ1EMrV5qkg0lGtREoI]';
+const EXPO_DEVICETOKEN = 'Your Expo Device token';
 
 Notifications.setNotificationHandler({
   handleNotification: async () => {
