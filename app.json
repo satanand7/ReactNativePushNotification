@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PushNotification",
-    "slug": "PushNotification",
+    "slug": "test-push-notification",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "576522f5-8c0c-4792-b82a-1997b9e01cc9"
+      }
+    },
+    "owner": "satanand7"
   }
 }
